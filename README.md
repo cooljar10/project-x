@@ -43,3 +43,7 @@ More Hacking Tools:
 
 This script is highly illegal if you use the tools in a wrong away 
 Good Luck Have Fun
+
+tips:
+mkchromecast –t
+https://vitux.com/how-to-cast-video-from-ubuntu-to-chromecast/

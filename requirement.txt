@@ -1,2 +1,8 @@
 termcolor
 parse
+flask
+httpagentparser
+pusher
+requests
+selenium
+ctypes-callable
