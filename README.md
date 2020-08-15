@@ -3,7 +3,8 @@ Made By Darkwar
 You Can not copy this code with the licness i put on this 
 
 installing:
-apt install python python-pip
+sudo apt install python python-pip
+sudo apt install python3-pip
 pip install -r requirement.txt
 python project-x
 

@@ -1,28 +1,27 @@
 import time
 import os
-from termcolor import colored
 import os.path
 import tarfile
 import subprocess
 def main():
     while(True):
         os.system("clear && reset")
-        print colored("Welcome to Project X After Installing and Updating your system it will turn into a hacking tool", "red", attrs=['bold'])        
-        print colored('Made By Darkwar', 'blue', attrs=['bold'])
-        print colored("[1] Installing System","green", attrs=['bold'])
-        print colored("[2] Running ssh", "cyan", attrs=['bold'])
-        print colored("[3] Installing apps", "yellow", attrs=['bold'])
-        print colored("[4] Update System", "blue", attrs=['bold'])
-        print colored("[5] Back Up sources.list", "green", attrs=['bold'])
-        print colored("{6} Install MsfConsole please use 2 then this", "green", attrs=['bold'])
+        print("Welcome to Project X After Installing and Updating your system it will turn into a hacking tool")        
+        print('Made By Darkwar')
+        print("[1] Installing System")
+        print("[2] Running ssh")
+        print("[3] Installing apps")
+        print("[4] Update System")
+        print("[5] Back Up sources.list")
+        print("{6} Install MsfConsole please use 2 then this")
         print("{7} install tor and access the tor browser")
         print("{8} Installs Everything")
-        print colored("[0] Exit", "red", attrs=['dark'])
-        bot = raw_input("Enter Option: ")
+        print("[0] Exit")
+        bot = input("Enter Option: ")
 
         if bot == "1":
            
-            os.system("sudo apt install -y apache2-bin hexchat hping3 macchanger virtualbox  xterm net-tools wireshark python3 python python-minimal python3-pip python-pip  zenmap aircrack-ng openssh-server hydra-gtk hydra libatk-adaptor:i386 libgail-common:i386 build-essential libreadline-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 dirmngr nmap ruby-bundler ruby-nokogiri build-essential patch ruby-dev zlib1g-dev liblzma-dev httrack virtualenv acccheck 6tunnel 4g8 anytun apt-cacher apache2-utils apt-cacher-ng git squid3 parallel snapd sqlmap apt-cacher-ng adb apktool lua5.1 lua5.2 lua50 braa sslsplit sslstrip edb-debugger android-sdk arduino ncrack cewl chntpw cmospwd crunch maskprocessor httptunnel binwalk p0f guymager bbqsql  openvas-manager cryptcat postgresql postgresql-contrib ettercap-graphical hashcat pixiewps mdk3 lighttpd isc-dhcp-server hostapd build-essential autoconf libtool pkg-config python-opengl python-pil python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev python-pip xdotool bleachbit libcanberra-gtk-module libcanberra-gtk-module:i386 kdenlive kazam python3-cairo python3-xlib default-jre mercurial python3-cairo p0f cpanminus apt-file lksctp-tools nginx-full mkchromecast ttyrec python-opster bluetooth bluez bluez-tools rfkill blueman gimp kismet dhcpcd5 openjdk-8-jdk-headless adb imagemagick sysvbanner lolcat gnustep-gui-runtime figlet gr-gsm nodejs abiword brasero k3b libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg ubuntu-restricted-extras q4wine tshark")
+            os.system("sudo apt install -y apache2-bin hexchat hping3 macchanger virtualbox  xterm net-tools wireshark python3 python python3-pip aircrack-ng openssh-server hydra-gtk hydra libatk-adaptor:i386 libgail-common:i386 build-essential libreadline-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 dirmngr nmap ruby-bundler ruby-nokogiri build-essential patch ruby-dev zlib1g-dev liblzma-dev httrack virtualenv 6tunnel 4g8 anytun apt-cacher apache2-utils apt-cacher-ng git squid3 parallel sqlmap apt-cacher-ng adb apktool lua5.1 lua5.2 lua50 braa sslsplit edb-debugger android-sdk arduino ncrack cewl chntpw cmospwd crunch maskprocessor httptunnel binwalk p0f guymager openvas-manager cryptcat postgresql postgresql-contrib ettercap-graphical hashcat pixiewps mdk3 lighttpd isc-dhcp-server hostapd build-essential autoconf libtool pkg-config python-opengl python-pil python-pyrex idle-python2.7 libgle3 python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev xdotool bleachbit libcanberra-gtk-module libcanberra-gtk-module:i386 kdenlive kazam python3-cairo python3-xlib default-jre mercurial python3-cairo p0f cpanminus apt-file lksctp-tools nginx-full mkchromecast ttyrec gimp kismet dhcpcd5 openjdk-8-jdk-headless adb imagemagick sysvbanner lolcat gnustep-gui-runtime figlet nodejs abiword brasero k3b gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg ubuntu-restricted-extras q4wine tshark")
            
             os.system("snap install john-the-ripper && snap install imagemagick")
             os.system("snap install null")
@@ -38,7 +37,7 @@ def main():
             os.system("sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt-get update && sudo apt-get install openshot-qt")
             os.system("git clone https://github.com/boxug/trape.git")
             os.system("git clone https://github.com/fwaeytens/dnsenum.git")
-    	    os.system("sudo gem install nokogiri")
+            os.system("sudo gem install nokogiri")
             os.system("pip3 install scrapy && pip install scrapy && pip install telepot && pip3 install telepot dnspython3 aiohttp httplib2 socksipy-branch requests url bs4")   
             os.system("git clone https://github.com/bettercap/bettercap.git")
             os.system("git clone https://github.com/v3n0m-scanner/v3n0m-scanner.git")
@@ -55,8 +54,8 @@ def main():
             
         elif bot == "2":
             os.system("sudo systemctl start ssh")
-	    os.system("sudo ufw allow ssh")
-	    os.system("sudo iptables -P FORWARD ACCEPT")
+            os.system("sudo ufw allow ssh")
+            os.system("sudo iptables -P FORWARD ACCEPT")
             os.system("sudo iptables -P OUTPUT ACCEPT")
             os.system("sudo iptables -P INPUT ACCEPT")
             os.system("sudo systemctl enable postgresql && sudo systemctl start postgresql")
@@ -77,9 +76,9 @@ def main():
      
         elif bot == "5":
             print("Welcome To Backup")
-            print colored("***Note NEED BACKUP FIRST BEFOR RESTORING***", "red", attrs=['bold'])
-            print colored("{1} Backup", "green", attrs=['bold'])
-            print colored ("{2} Restore", "blue", attrs=['bold'])
+            print("***Note NEED BACKUP FIRST BEFOR RESTORING***")
+            print("{1} Backup")
+            print("{2} Restore")
             rb = raw_input("Enter Option: ")
             if rb == "1":
                 if not os.path.exists("/etc/apt/backup"):
@@ -105,7 +104,7 @@ def main():
             time.sleep(3)
             
         elif bot == "8":
-            os.system("sudo apt install -y apache2-bin hexchat hping3 macchanger virtualbox  xterm net-tools wireshark python3 python python-minimal python3-pip python-pip  zenmap aircrack-ng openssh-server hydra-gtk hydra libatk-adaptor:i386 libgail-common:i386 build-essential libreadline-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 dirmngr nmap ruby-bundler ruby-nokogiri build-essential patch ruby-dev zlib1g-dev liblzma-dev httrack virtualenv acccheck 6tunnel 4g8 anytun apt-cacher apache2-utils apt-cacher-ng git squid3 parallel snapd sqlmap apt-cacher-ng adb apktool lua5.1 lua5.2 lua50 braa sslsplit sslstrip edb-debugger android-sdk arduino ncrack cewl chntpw cmospwd crunch maskprocessor httptunnel binwalk p0f guymager bbqsql  openvas-manager cryptcat postgresql postgresql-contrib ettercap-graphical hashcat pixiewps mdk3 lighttpd isc-dhcp-server hostapd build-essential autoconf libtool pkg-config python-opengl python-pil python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev python-pip xdotool bleachbit libcanberra-gtk-module libcanberra-gtk-module:i386 kdenlive kazam python3-cairo python3-xlib default-jre mercurial python3-cairo p0f cpanminus apt-file lksctp-tools nginx-full mkchromecast ttyrec python-opster bluetooth bluez bluez-tools rfkill blueman gimp kismet dhcpcd5 openjdk-8-jdk-headless adb imagemagick sysvbanner lolcat gnustep-gui-runtime figlet gr-gsm nodejs abiword brasero k3b libdvdnav4 libdvdread4 gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg ubuntu-restricted-extras q4wine tshark")
+            os.system("sudo apt install -y apache2-bin hexchat hping3 macchanger virtualbox  xterm net-tools wireshark python3 python python-minimal python3-pip zenmap aircrack-ng openssh-server hydra-gtk hydra libatk-adaptor:i386 libgail-common:i386 build-essential libreadline-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev curl zlib1g-dev gawk bison libffi-dev libgdbm-dev libncurses5-dev libtool sqlite3 libgmp-dev gnupg2 dirmngr nmap ruby-bundler ruby-nokogiri build-essential patch ruby-dev zlib1g-dev liblzma-dev httrack virtualenv acccheck 6tunnel 4g8 anytun apt-cacher apache2-utils apt-cacher-ng git squid3 parallel snapd sqlmap apt-cacher-ng adb apktool lua5.1 lua5.2 lua50 braa sslsplit sslstrip edb-debugger android-sdk arduino ncrack cewl chntpw cmospwd crunch maskprocessor httptunnel binwalk p0f guymager bbqsql  openvas-manager cryptcat postgresql postgresql-contrib ettercap-graphical hashcat pixiewps mdk3 lighttpd isc-dhcp-server hostapd build-essential autoconf libtool pkg-config python-opengl python-pil python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools libgle3 python-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev xdotool bleachbit libcanberra-gtk-module libcanberra-gtk-module:i386 kdenlive kazam python3-cairo python3-xlib default-jre mercurial python3-cairo p0f cpanminus apt-file lksctp-tools nginx-full mkchromecast ttyrec bluetooth bluez bluez-tools rfkill blueman gimp kismet dhcpcd5 openjdk-8-jdk-headless adb imagemagick sysvbanner lolcat gnustep-gui-runtime figlet gr-gsm nodejs abiword brasero k3b gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly libdvd-pkg ubuntu-restricted-extras q4wine tshark")
             os.system("snap install john-the-ripper && snap install imagemagick")
             os.system("snap install null")
             os.system("sudo gem install bundler")
@@ -120,7 +119,7 @@ def main():
             os.system("sudo add-apt-repository ppa:openshot.developers/ppa && sudo apt-get update && sudo apt-get install openshot-qt")
             os.system("git clone https://github.com/boxug/trape.git")
             os.system("git clone https://github.com/fwaeytens/dnsenum.git")
-    	    os.system("sudo gem install nokogiri")
+            os.system("sudo gem install nokogiri")
             os.system("pip3 install scrapy && pip install scrapy && pip install telepot && pip3 install telepot dnspython3 aiohttp httplib2 socksipy-branch requests url bs4")   
             os.system("git clone https://github.com/bettercap/bettercap.git")
             os.system("git clone https://github.com/v3n0m-scanner/v3n0m-scanner.git")
@@ -134,8 +133,8 @@ def main():
             os.system("sudo npm install -g combolist-generator")
             os.system("git clone https://github.com/RomaniukVadim/hack_scripts.git && git clone https://github.com/adnane-X-tebbaa/Katana.git && git clone https://github.com/scorpion3013/checkolotl.git && git clone https://github.com/scorpion3013/SimpleCheck.git")
             os.system("sudo systemctl start ssh")
-	    os.system("sudo ufw allow ssh")
-	    os.system("sudo iptables -P FORWARD ACCEPT")
+            os.system("sudo ufw allow ssh")
+            os.system("sudo iptables -P FORWARD ACCEPT")
             os.system("sudo iptables -P OUTPUT ACCEPT")
             os.system("sudo iptables -P INPUT ACCEPT")
             os.system("sudo systemctl enable postgresql && sudo systemctl start postgresql")
